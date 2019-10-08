@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6CECE"
+    android:orientation="vertical"
+    tools:context=".MoreFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ADA5A5"
+
+        >
+
+        <LinearLayout
+            android:background="#F0EFEF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/picture" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alipha Sawdha"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0180000000"
+
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/percent"
+                        android:drawableLeft="@drawable/ic_likeblack"
+                        android:gravity="center_vertical"
+                        android:text="98% >"
+
+                        android:textAlignment="center"
+
+                        android:textColor="#FFFFFF" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                 android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_scanner_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:text="Pathao pay"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/ic_notifications_none_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:text="Notification"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:drawableLeft="@drawable/ic_tag"
+                    android:drawablePadding="10dp"
+                    android:text="Promotions                                           10"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:drawableLeft="@drawable/ic_local_play_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:text="Free Ride"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:drawableLeft="@drawable/ic_settings_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:text="Satting"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/ic_information"
+                    android:drawablePadding="10dp"
+                    android:text="Help"
+                    android:textColor="#000000"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/ic_blur_circular_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="Bangla"
+                android:textColor="#000000"
+
+                android:textSize="20dp" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                   android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Version 2.0.7"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

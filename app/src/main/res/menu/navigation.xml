@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homeIc"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/cartIc"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="Cart" />
+
+    <item
+        android:id="@+id/moreIc"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="More" />
+
+</menu>
